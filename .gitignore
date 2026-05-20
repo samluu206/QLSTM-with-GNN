@@ -10,5 +10,3 @@ __pycache__/
 CLAUDE.md
 results/evaluation.md
 
-# Large binary files (reproducible)
-checkpoints/
