@@ -12,5 +12,3 @@ results/evaluation.md
 
 # Large binary files (reproducible)
 checkpoints/
-data/
-benchmark_results/
