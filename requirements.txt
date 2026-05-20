@@ -1,0 +1,16 @@
+# Core quantum + ML stack
+pennylane>=0.38.0
+torch>=2.0.0
+networkx>=3.0
+
+# PyTorch Geometric — installation depends on your CUDA version.
+# Follow https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
+# Typical CPU-only install:
+#   pip install torch-geometric
+# GPU install (example for CUDA 12.1):
+#   pip install torch-geometric
+#   pip install torch-scatter torch-sparse -f https://data.pyg.org/whl/torch-2.x.x+cu121.html
+torch-geometric>=2.5.0
+
+# Optional: faster PennyLane simulator (drop-in for default.qubit)
+# pennylane-lightning>=0.38.0

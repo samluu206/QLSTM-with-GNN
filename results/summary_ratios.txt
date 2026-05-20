@@ -1,0 +1,83 @@
+======================================================================
+BENCHMARK SUMMARY — Approximation Ratio
+======================================================================
+
+=== MAXCUT | EXP1 (GNN warm-start) ===
+  At iteration 3:
+    HyperNet_QLSTM_GNN_init  : 0.8455 ± 0.0543
+    Fixed_Phi_QLSTM_GNN_init : 0.8687 ± 0.0342
+    CLSTM_GNN_init           : 0.8656 ± 0.0342
+    Adam_GNN_init            : 0.7824 ± 0.0456
+    SGD_GNN_init             : 0.7912 ± 0.0445
+    RMSProp_GNN_init         : 0.7867 ± 0.0427
+    Adagrad_GNN_init         : 0.7866 ± 0.0427
+
+  At iteration 50:
+    HyperNet_QLSTM_GNN_init  : 0.8594 ± 0.0443
+    Fixed_Phi_QLSTM_GNN_init : 0.8687 ± 0.0341
+    CLSTM_GNN_init           : 0.8453 ± 0.0441
+    Adam_GNN_init            : 0.8573 ± 0.0487
+    SGD_GNN_init             : 0.8463 ± 0.0551
+    RMSProp_GNN_init         : 0.8548 ± 0.0555
+    Adagrad_GNN_init         : 0.8541 ± 0.0553
+
+
+=== MAXCUT | EXP2 (Random init) ===
+  At iteration 3:
+    HyperNet_QLSTM  : 0.8392 ± 0.0501
+    Fixed_Phi_QLSTM : 0.8670 ± 0.0341
+    CLSTM           : 0.7778 ± 0.0657
+    Adam            : 0.7528 ± 0.0763
+    SGD             : 0.7410 ± 0.0860
+    RMSProp         : 0.7558 ± 0.0776
+    Adagrad         : 0.7557 ± 0.0776
+
+  At iteration 50:
+    HyperNet_QLSTM  : 0.8483 ± 0.0593
+    Fixed_Phi_QLSTM : 0.8687 ± 0.0341
+    CLSTM           : 0.7581 ± 0.0671
+    Adam            : 0.8197 ± 0.0668
+    SGD             : 0.7966 ± 0.0800
+    RMSProp         : 0.8137 ± 0.0704
+    Adagrad         : 0.8130 ± 0.0704
+
+
+=== SK | EXP1 (GNN warm-start) ===
+  At iteration 3:
+    HyperNet_QLSTM_GNN_init  : 11.2735 ± 6.1435
+    Fixed_Phi_QLSTM_GNN_init : 10.9161 ± 6.2744
+    CLSTM_GNN_init           : 11.5432 ± 6.2839
+    Adam_GNN_init            : 10.7665 ± 5.8370
+    SGD_GNN_init             : 8.9329 ± 5.1880
+    RMSProp_GNN_init         : 10.7341 ± 5.8641
+    Adagrad_GNN_init         : 10.7342 ± 5.8649
+
+  At iteration 50:
+    HyperNet_QLSTM_GNN_init  : 11.4342 ± 6.2326
+    Fixed_Phi_QLSTM_GNN_init : 10.9977 ± 6.3217
+    CLSTM_GNN_init           : 8.9049 ± 5.3850
+    Adam_GNN_init            : 11.6802 ± 6.3934
+    SGD_GNN_init             : 10.7288 ± 6.2427
+    RMSProp_GNN_init         : 11.4314 ± 6.1368
+    Adagrad_GNN_init         : 11.4354 ± 6.1402
+
+
+=== SK | EXP2 (Random init) ===
+  At iteration 3:
+    HyperNet_QLSTM  : 11.1530 ± 6.1092
+    Fixed_Phi_QLSTM : 10.9490 ± 6.2738
+    CLSTM           : 5.1299 ± 3.3160
+    Adam            : 10.2354 ± 5.6015
+    SGD             : 9.7444 ± 5.5988
+    RMSProp         : 10.4765 ± 5.6206
+    Adagrad         : 10.4772 ± 5.6218
+
+  At iteration 50:
+    HyperNet_QLSTM  : 11.3709 ± 6.2179
+    Fixed_Phi_QLSTM : 10.7536 ± 6.2164
+    CLSTM           : 5.5921 ± 3.5672
+    Adam            : 11.4560 ± 6.2307
+    SGD             : 10.6963 ± 6.0019
+    RMSProp         : 11.2491 ± 6.0947
+    Adagrad         : 11.2577 ± 6.0954
+

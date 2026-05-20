@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+*.egg-info/
+.ipynb_checkpoints/
+
+# Private / internal
+.claude/
+CLAUDE.md
+results/evaluation.md
+
+# Large binary files (reproducible)
+checkpoints/
+data/
+benchmark_results/
